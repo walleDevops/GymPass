@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio PowerFit</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a TierraFit </h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Acceso a miembros</h2>
+            <div>
+                <h3>¿Ya eres miembro?</h3>
+                <form action="/login" method="post">
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+            
+            <div>
+                <h3>¿Nuevo aquí?</h3>
+                <p>Regístrate para acceder a todas nuestras instalaciones y clases.</p>
+                <a href="/registro"><button>Registrarse</button></a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2023 TierraFit . Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
